@@ -5,8 +5,8 @@ body{
 }
 .top-bar{
     background-color: rgba(255, 255, 255, 0.9);
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 
     box-shadow: 0px 0px 4px grey;
 }
@@ -19,10 +19,6 @@ body{
 .text-button{
     font-size: 20px;
     font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #ffffff;
     vertical-align: middle;
 }
@@ -88,6 +84,20 @@ a[ href="#whypremium"]:hover:before{
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
     background-color: #ed2011;
   }
+
+.nav-button {
+    border: none;
+    width: 239px;
+    height: 42px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 26px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ed2011;
+}
 button > img{
     position: relative;
     bottom: 2px;
@@ -110,10 +120,6 @@ button:hover{
     padding-top: 200.1px;
     font-size: 60px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #222222;
 
 }
@@ -124,7 +130,7 @@ button:hover{
 }
 .discount-size{
 
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -208,10 +214,6 @@ button:hover{
     border: 0;
     font-size: 16px;
     font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #3f3f3f;
   }
 .table th{
@@ -221,10 +223,6 @@ button:hover{
     border: 0;
     font-size: 20px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #000000;
   }
   
@@ -256,10 +254,6 @@ table tr:first-child th:first-child {
     padding-bottom: 180px;
     font-size: 36px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #000000;
 }
 .card-title{
