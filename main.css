@@ -1,0 +1,353 @@
+
+body{
+
+    font-family: Helvetica, sans-serif;
+}
+.top-bar{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    box-shadow: 0px 0px 4px grey;
+}
+.logo{
+
+}
+.crown-img{
+
+}
+.text-button{
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    vertical-align: middle;
+}
+.text-why-small{
+
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: right;
+    display: inline-block;
+    color: #000000;
+    margin-right: 34px;
+}
+.pad{
+    padding-left:10.7%;
+    padding-right: 10.7%;
+}
+
+
+/* For underline css effect */
+a[ href="#whypremium"]{
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+a[ href="#whypremium"]:hover{
+    color: #ed2011;
+}
+a[ href="#whypremium"]:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -5px;
+    left: 0;
+    background-color: #ed2011;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+a[ href="#whypremium"]:hover:before{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+.button {
+    border: none;
+    width: 239px;
+    height: 52px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 26px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ed2011;
+  }
+button > img{
+    position: relative;
+    bottom: 2px;
+    right: 3px;
+  }
+
+button:hover{
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+.bgimg {
+    background-image: url('./images/header-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.job-text{
+    padding-top: 200.1px;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #222222;
+
+}
+.discount-text{
+    margin-top: 62px;
+    width: 264px;
+
+}
+.discount-size{
+
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: 1.1px;
+  
+}
+.discount-size-2{
+
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: 0.7px;
+    color: #303030;
+}
+
+.pad-t-45{
+    padding-top: 45px;
+}
+.pad-b-300{
+    padding-bottom: 300px;
+}
+.pad-red{
+    padding-top: 70px;
+    background-color: #ed2011;
+    height: 450px;
+}
+.red-text{
+
+    font-size: 140px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.9px;
+    color: #b9190d;
+    overflow: hidden;
+
+}
+.table-row{
+
+    background-color: white;
+    padding: 0px 19.1%;
+}
+.table-shadow{
+    box-shadow: 0px 1px 1px #d3d3d3;
+}
+.spacing-grey{
+    background-color: #f3f3f3;
+    height: 115px;
+    box-shadow: 0px 1px 1px #d3d3d3;
+    z-index: 2;
+    border-radius: 0px 0px 2px 2px;
+}
+.blur-grey{
+
+    background-color: #d4d8e2;
+    height: 40px;
+    margin: 0 15px;
+    -webkit-filter: blur(27.8px);
+    filter: blur(27.8px);
+    z-index: 1;
+}
+.last-col  {
+
+    padding-right: 100px !important; 
+  }
+  .first-col  {
+
+    padding-left: 100px !important; 
+  }
+.pad-td-left{
+    padding-left: 100px;
+}
+.table td{
+    padding: 31px 31px;
+    background-color: white;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3f3f3f;
+  }
+.table th{
+    padding: 36px 10px;
+    border-style: none;
+    background-color: #f3f3f3;  
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  
+/* top-left border-radius */
+table tr:first-child th:first-child {
+    border-top-left-radius: 2px;
+  }
+  
+  /* top-right border-radius */
+  table tr:first-child th:last-child {
+    border-top-right-radius: 2px;
+  }
+
+.shift-up{
+        /* position: absolute; */
+        position: relative;
+        top: -149px;
+
+}
+  
+ .table td:first-child {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:31px;
+    padding-bottom:31px;  
+  }
+.pad-why{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+.pad-cards{
+    padding-left: 10.7%;
+    padding-right: 10.7%;
+    padding-top: 8.8rem;
+}
+.card  span:after {
+    background: none repeat scroll 0 0 #ed2011;
+    bottom: -15.5px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 66px;
+}
+.card  .button span:after {
+    background: none repeat scroll 0 0 #ed2011;
+    bottom: -15.5px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 0px;
+}
+
+
+.card-content{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.65;
+    letter-spacing: 0.4px;
+    color: #717171;
+
+}
+.white-space{
+    height: 160px;
+}
+
+@media (max-width: 768px) {
+    #tbut{
+        margin-left: auto;
+    }
+    .bgimg {
+        background-image: url('./images/header-image.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .pad-b-300{
+        padding-bottom: 150px;
+    }
+    .job-text{
+        padding-top: 150px;
+    }
+    .button{
+        
+        width: 140px;
+        height: 32px;
+    }
+    .text-button{
+        font-size: 14px;
+    }
+    .pad-red{
+        padding-top: 70px;
+        background-color: #ed2011;
+        height: 380px;
+    }
+    .red-text{
+        font-size: 35px;
+    }
+    .crown-img{
+        height: 12px;
+    }
+    .logo{
+        height: 15px;   
+    }
+}
+
