@@ -248,6 +248,7 @@ table tr:first-child th:first-child {
   }
 .pad-why{
     padding-top: 180px;
+ 
     padding-bottom: 180px;
     font-size: 36px;
     font-weight: bold;
@@ -270,7 +271,7 @@ table tr:first-child th:first-child {
 .card  span:after {
     background: none repeat scroll 0 0 #ed2011;
     bottom: -15.5px;
-    content: none;
+    content: "";
     display: block;
     height: 2px;
     position: relative;
@@ -603,15 +604,18 @@ table tr:first-child th:first-child {
         height: 12px;
     }
     .logo{
-        height: 15px;   
+        height: 23px;   
     }
     .card .button span:after {
         background: none repeat scroll 0 0 #ed2011;
-        bottom: -15.5px;
+
         content: "";
         display: block;
         height: 2px;
         position: relative;
-        width: 0px;
+        bottom: -4.5px;
+        left: 153px;
+        width: 66px;
     }
 }
+
