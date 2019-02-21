@@ -80,6 +80,7 @@ a[ href="#whypremium"]:hover:before{
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    margin-top: 35px;
     border-radius: 26px;
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
     background-color: #ed2011;
@@ -215,6 +216,11 @@ button:hover{
     font-weight: 500;
     color: #3f3f3f;
   }
+.table td img{
+    display: block;
+    margin: 0 auto;
+}
+
 .table th{
     border-style: none;
     background-color: #f3f3f3;
@@ -241,11 +247,7 @@ table tr:first-child th:first-child {
 
 }
   
- .table td:first-child {
-    padding-left:10px;
-    padding-right:10px;
-  
-  }
+
 .pad-why{
     padding-top: 180px;
  
@@ -266,7 +268,7 @@ table tr:first-child th:first-child {
 .pad-cards{
     padding-left: 10.7%;
     padding-right: 10.7%;
-    padding-top: 8.8rem;
+    padding-top: 5.8rem;
 }
 .card  span:after {
     background: none repeat scroll 0 0 #ed2011;
@@ -502,6 +504,7 @@ table tr:first-child th:first-child {
     .button{
             width: 303px;
             height: 60px;
+            border-radius: 34px;
     }
     .nav-button {
         width: 175px;
@@ -564,6 +567,7 @@ table tr:first-child th:first-child {
     .card span:after {
         background: none repeat scroll 0 0 #ed2011;
         bottom: -4.5px;
+        left: 150px;
         content: "";
         display: block;
         height: 2px;
@@ -583,8 +587,8 @@ table tr:first-child th:first-child {
     }
     .card-content {
         margin-top: 15px;
-        margin-bottom: 15px;
-        font-size: 13.5px;
+        margin-bottom: 25px;
+        font-size: 16.0px;
         padding: 0 2rem;
     }
     .white-space {
@@ -608,14 +612,49 @@ table tr:first-child th:first-child {
     }
     .card .button span:after {
         background: none repeat scroll 0 0 #ed2011;
-
+        bottom: -15.5px;
         content: "";
         display: block;
         height: 2px;
         position: relative;
-        bottom: -4.5px;
-        left: 153px;
-        width: 66px;
+        width: 0px;
     }
 }
 
+@media (max-width: 375px) {
+
+.card span:after {
+    background: none repeat scroll 0 0 #ed2011;
+    bottom: -4.5px;
+    left: 129px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 66px;
+}   
+}
+
+
+@media (max-width: 320px){
+    .job-text {
+        padding-top: 155px;
+        font-size: 28px;
+    }
+    .button {
+        width: 265px;
+        height: 55px;
+        border-radius: 34px;
+    }
+    .card span:after {
+        background: none repeat scroll 0 0 #ed2011;
+        bottom: -4.5px;
+        left: 105px;
+        content: "";
+        display: block;
+        height: 2px;
+        position: relative;
+        width: 66px;
+    }
+
+}

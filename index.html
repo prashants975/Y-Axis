@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="main.css">
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -100,27 +102,27 @@
 
                         <td class="align-middle first-col">Priority Display</td>
                         <td><img src="./images/tick-red.svg"></td>
-                        <td><img src="./images/tick-red.svg"></td>
+                        <td class="last-col"><img src="./images/tick-red.svg"></td>
                     </tr>
                     <tr>
                         <td class="align-middle first-col">Direct Communication</td>
                         <td><img src="./images/tick-red.svg"></td>
-                        <td><img src="./images/cross-grey.svg"></td>
+                        <td class="last-col"><img src="./images/cross-grey.svg"></td>
                     </tr>
                     <tr>
                         <td class="align-middle first-col">Direct Communication</td>
                         <td><img src="./images/tick-red.svg"></td>
-                        <td><img src="./images/cross-grey.svg"></td>
+                        <td class="last-col"><img src="./images/cross-grey.svg"></td>
                     </tr>
                     <tr>
                         <td class="align-middle first-col">Direct Communication</td>
                         <td><img src="./images/tick-red.svg"></td>
-                        <td><img src="./images/cross-grey.svg"></td>
+                        <td class="last-col"><img src="./images/cross-grey.svg"></td>
                     </tr>
                     <tr>
                         <td class="align-middle first-col">Direct Communication</td>
                         <td><img src="./images/tick-red.svg"></td>
-                        <td><img src="./images/cross-grey.svg"></td>
+                        <td class="last-col"><img src="./images/cross-grey.svg"></td>
                     </tr>
                     </tbody>
                 </table>
@@ -150,8 +152,8 @@
     </div>
 </div>
 <div class="container-fluid">
-    <div class="row d-none d-md-block">
-        <div class="col-12 col-md-6 pad-cards ">
+    <div class="row">
+        <div class="col-12 col-md-6 d-none d-md-block pad-cards ">
             <div class="card border-0 ">
                 <div class="card-body p-0">
                     <span class="card-title">Unlimited Applications</span>
@@ -165,8 +167,8 @@
 
             </div>
         </div>
-        <div class="col-12 col-md-6">
-            <img class="img-fluid" src="./images/feature-1@2x.png">
+        <div class="col-12 col-md-6 d-none d-md-block">
+            <img class="img-fluid" id="test" src="./images/feature-1@2x.png">
         </div>
 
     </div>
@@ -196,11 +198,11 @@
 
     </div>
 
-    <div class="row d-none d-md-block">
-        <div class="col-12 col-md-6">
+    <div class="row ">
+        <div class="col-12 col-md-6 d-none d-md-block">
             <img class="img-fluid" src="./images/feature-2@2x.png">
         </div>
-        <div class="col-12 col-md-6  pad-cards ">
+        <div class="col-12 col-md-6 d-none d-md-block pad-cards ">
             <div class="card border-0 ">
                 <div class="card-body p-0">
                     <span class="card-title">Direct Communication</span>
@@ -237,8 +239,8 @@
 
     <div class="row white-space">
     </div>
-    <div class="row d-none d-md-block">
-        <div class="col-12 col-md-6  pad-cards ">
+    <div class="row ">
+        <div class="col-12 col-md-6  d-none d-md-block pad-cards ">
             <div class="card border-0 ">
                 <div class="card-body p-0">
                     <span class="card-title">Priority Display</span>
@@ -251,7 +253,7 @@
 
             </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 d-none d-md-block">
             <img class="img-fluid" src="./images/featue-3@2x.png">
         </div>
 
@@ -284,7 +286,6 @@
     </div>
 
 </div>
-
 
 </body>
 
