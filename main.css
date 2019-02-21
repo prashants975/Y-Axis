@@ -17,7 +17,7 @@ body{
 
 }
 .text-button{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
     color: #ffffff;
     vertical-align: middle;
@@ -87,7 +87,7 @@ a[ href="#whypremium"]:hover:before{
 
 .nav-button {
     border: none;
-    width: 239px;
+    width: 210px;
     height: 42px;
     color: white;
     text-align: center;
@@ -183,15 +183,15 @@ button:hover{
 }
 .spacing-grey{
     background-color: #f3f3f3;
-    height: 115px;
     box-shadow: 0px 1px 1px #d3d3d3;
     z-index: 2;
     border-radius: 0px 0px 2px 2px;
+    padding: 16px 0px;
 }
 .blur-grey{
 
     background-color: #d4d8e2;
-    height: 40px;
+    height: 20px;
     margin: 0 15px;
     -webkit-filter: blur(27.8px);
     filter: blur(27.8px);
@@ -209,7 +209,6 @@ button:hover{
     padding-left: 100px;
 }
 .table td{
-    padding: 31px 31px;
     background-color: white;
     border: 0;
     font-size: 16px;
@@ -217,12 +216,11 @@ button:hover{
     color: #3f3f3f;
   }
 .table th{
-    padding: 36px 10px;
     border-style: none;
-    background-color: #f3f3f3;  
+    background-color: #f3f3f3;
     border: 0;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 400;
     color: #000000;
   }
   
@@ -246,8 +244,7 @@ table tr:first-child th:first-child {
  .table td:first-child {
     padding-left:10px;
     padding-right:10px;
-    padding-top:31px;
-    padding-bottom:31px;  
+  
   }
 .pad-why{
     padding-top: 180px;
@@ -273,13 +270,13 @@ table tr:first-child th:first-child {
 .card  span:after {
     background: none repeat scroll 0 0 #ed2011;
     bottom: -15.5px;
-    content: "";
+    content: none;
     display: block;
     height: 2px;
     position: relative;
     width: 66px;
 }
-.card  .button span:after {
+.card .button span:after {
     background: none repeat scroll 0 0 #ed2011;
     bottom: -15.5px;
     content: "";
@@ -306,10 +303,80 @@ table tr:first-child th:first-child {
     height: 160px;
 }
 
-@media (max-width: 768px) {
-    #tbut{
-        margin-left: auto;
+@media (max-width: 1024px) {
+
+    .red-text {
+        font-size: 100px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 1.9px;
+        color: #b9190d;
+        overflow: hidden;
     }
+    .shift-up {
+        /* position: absolute; */
+        position: relative;
+        top: -110px;
+    }
+    .pad-red {
+        padding-top: 70px;
+        background-color: #ed2011;
+        height: 350px;
+    }
+    .pad-cards {
+        padding-left: 10.7%;
+        padding-right: 10.7%;
+        padding-top: 5.0rem;
+    }
+    .card-title {
+        font-size: 24px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.4px;
+        color: #000000;
+    }
+    .card-content {
+        margin-top: 18px;
+        margin-bottom: 15px;
+        font-size: 17.5px;
+        font-weight: normal;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: 1.65;
+        letter-spacing: 0.4px;
+        color: #717171;
+    }
+    .button{
+        border: none;
+        width: 216px;
+        height: 46px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 26px;
+        box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+        background-color: #ed2011;
+    }
+    .card span:after{
+        background: none repeat scroll 0 0 #ed2011;
+        bottom: -7.5px;
+        content: "";
+        display: block;
+        height: 2px;
+        position: relative;
+        width: 66px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
     .bgimg {
         background-image: url('./images/header-image.jpg');
         background-size: cover;
@@ -319,23 +386,91 @@ table tr:first-child th:first-child {
         padding-bottom: 150px;
     }
     .job-text{
-        padding-top: 150px;
+        padding-top: 130px;
+        font-size: 40px;
     }
     .button{
         
-        width: 140px;
-        height: 32px;
+        width: 180px;
+        height: 40px;
+    }
+    .nav-button {
+        width: 175px;
+        height: 35px;
     }
     .text-button{
-        font-size: 14px;
+        font-size: 16px;
+    }
+    .text-why-small {
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.2px;
+        text-align: right;
+        display: inline-block;
+        color: #000000;
+        margin-right: 20px;
     }
     .pad-red{
         padding-top: 70px;
         background-color: #ed2011;
         height: 380px;
     }
+    .first-col {
+        padding-left: 45px !important;
+    }
+    .last-col {
+        padding-right: 45px !important;
+    }
+    .pad-why {
+        padding-top: 160px;
+        padding-bottom: 160px;
+        font-size: 36px;
+        font-weight: bold;
+        color: #000000;
+    }
+    .pad-t-45 {
+        padding-top: 20px;
+    }   
     .red-text{
-        font-size: 35px;
+        font-size: 75px;
+    }
+    .card-title {
+        font-size: 19px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.4px;
+        color: #000000;
+    }
+    .card span:after {
+        background: none repeat scroll 0 0 #ed2011;
+        bottom: -4.5px;
+        content: "";
+        display: block;
+        height: 2px;
+        position: relative;
+        width: 66px;
+    }
+    .pad {
+        padding-left: 7.7%;
+        padding-right: 7.7%;
+    }
+    .pad-cards {
+        padding-left: 7.7%;
+        padding-right: 7.7%;
+        padding-top: 3.5rem;
+    }
+    .card-content {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 13.5px;
+    }
+    .white-space {
+        height: 135px;
     }
     .crown-img{
         height: 12px;
@@ -345,3 +480,138 @@ table tr:first-child th:first-child {
     }
 }
 
+@media (max-width: 500px) {
+
+    .bgimg {
+        background-image: url('./images/header-image-2@2x.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .center-logo{
+        margin: 0 auto;
+        height: 24px;
+    }
+    .pad-b-300{
+        padding-bottom: 400px;
+    }
+    .job-text{
+        padding-top: 155px;
+        font-size: 32px;
+    }
+    .button{
+            width: 303px;
+            height: 60px;
+    }
+    .nav-button {
+        width: 175px;
+        height: 35px;
+    }
+    .text-button{
+        font-size: 20px;
+    }
+    .text-why-small {
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.2px;
+        text-align: right;
+        display: inline-block;
+        color: #000000;
+        margin-right: 20px;
+    }
+    .pad-red{
+        padding-top: 70px;
+        background-color: #ed2011;
+        height: 380px;
+    }
+    .first-col {
+        padding-left: 25px !important;
+    }
+    .last-col {
+        padding-right: 25px !important;
+    }
+    .shift-up{
+        position: relative;
+        top: -220px;
+    }
+    .pad-why {
+        padding-top: 155px;
+        padding-bottom: 155px;
+        font-size: 24px;
+    }
+    .pad-t-45 {
+        padding-top: 20px;
+    }   
+    .red-text{
+        font-size: 36px;
+    }
+    .table-row {
+        background-color: white;
+        padding: 0px 3.5%;
+    }
+    .card-title {
+        font-size: 19px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.4px;
+        color: #000000;
+    }
+    .card span:after {
+        background: none repeat scroll 0 0 #ed2011;
+        bottom: -4.5px;
+        content: "";
+        display: block;
+        height: 2px;
+        position: relative;
+        width: 66px;
+    }
+    .pad {
+        padding-left: 5.7%;
+        padding-right: 5.7%;
+    }
+    .pad-cards {
+        padding-left: 5.7%;
+        padding-right: 5.7%;
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+        text-align: center; 
+    }
+    .card-content {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 13.5px;
+        padding: 0 2rem;
+    }
+    .white-space {
+        display: 80px;
+    }
+    .table td{
+        font-size: 14px;
+        padding: 0.3rem;
+
+    }
+    .table th {
+
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .crown-img{
+        height: 12px;
+    }
+    .logo{
+        height: 15px;   
+    }
+    .card .button span:after {
+        background: none repeat scroll 0 0 #ed2011;
+        bottom: -15.5px;
+        content: "";
+        display: block;
+        height: 2px;
+        position: relative;
+        width: 0px;
+    }
+}

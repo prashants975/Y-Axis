@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="main.css">
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -16,10 +15,10 @@
 <div class="container-fluid bgimg pad">
     <div class="row top-bar fixed-top align-items-center">
         <div class="col-sm-12 d-flex pad">
-            <a class="my-auto" href="#"><img src="./images/premium-jobs-logo.svg" alt="Y-Axis Logo"
+            <a class="my-auto center-logo" href="#"><img src="./images/premium-jobs-logo.svg" alt="Y-Axis Logo"
                                              class="logo img-fluid"></a>
             <a class="text-why-small ml-auto my-auto d-none d-md-block" href="#whypremium">Why become premium?</a>
-            <button id="tbut" class="btn nav-button " type="button" onclick="location.href='#';" value="Premium">
+            <button id="tbut" class="btn nav-button d-none d-md-block " type="button" onclick="location.href='#';" value="Premium">
                 <!--<img class="img-fluid crown-img" src="./images/crown-icon.svg">-->
 
                 <span class="text-button"><i class="fas fa-crown">&nbsp;</i>Buy Premium</span></button>
@@ -53,7 +52,7 @@
     <!-- checking-->
     <div class="d-md-none row pad-b-300 ">
         <div class="col-12 p-0 text-center">
-            <div class="job-text" style="font-size: 30px;">
+            <div class="job-text">
                 Join The World’s<br> Only 100% Overseas<br> Jobsite
             </div>
         </div>
@@ -127,7 +126,10 @@
                 </table>
             </div>
         </div>
-        <div class="col-sm-12 p-0 spacing-grey shift-up">
+        <div class="col-sm-12 spacing-grey shift-up text-center">
+                <button class="btn button " type="button" onclick="location.href='#';" value="Premium">
+                    <span class="text-button"><i class="fas fa-crown">&nbsp;</i>Buy Premium</span>
+                </button>
         </div>
         <div class="col-sm-12 shift-up">
             <div class="row blur-grey">
@@ -148,7 +150,7 @@
     </div>
 </div>
 <div class="container-fluid">
-    <div class="row">
+    <div class="row d-none d-md-block">
         <div class="col-12 col-md-6 pad-cards ">
             <div class="card border-0 ">
                 <div class="card-body p-0">
@@ -163,16 +165,38 @@
 
             </div>
         </div>
-        <div class="col-12 col-md-6  ">
+        <div class="col-12 col-md-6">
             <img class="img-fluid" src="./images/feature-1@2x.png">
         </div>
 
     </div>
+
+    <div class="row d-md-none">
+        <div class="col-12 col-md-6">
+            <img class="img-fluid" src="./images/feature-1-copy@2x.jpg">
+        </div>
+        <div class="col-12 col-md-6 pad-cards ">
+                <div class="card border-0 ">
+                    <div class="card-body p-0">
+                        <span class="card-title">Unlimited Applications</span>
+                        <p class="card-content">
+                            Apply to unlimited number of jobs abroad. Filter jobs based on skillsets, industry and
+                            companies. Have the option to apply to multiple jobs at onces.
+                        </p>
+                        <button class="btn button " type="button" onclick="location.href='#';" value="Premium">
+                            <span class="text-button"><i class="fas fa-crown">&nbsp;</i>Buy Premium</span></button>
+                    </div>
+    
+                </div>
+        </div>
+    </div>
+
+
     <div class="row white-space">
 
     </div>
 
-    <div class="row">
+    <div class="row d-none d-md-block">
         <div class="col-12 col-md-6">
             <img class="img-fluid" src="./images/feature-2@2x.png">
         </div>
@@ -191,9 +215,29 @@
             </div>
         </div>
     </div>
+    <div class="row d-md-none">
+        <div class="col-12 col-md-6">
+            <img class="img-fluid" src="./images/feature-2-copy-2@2x.jpg">
+        </div>
+        <div class="col-12 col-md-6  pad-cards ">
+            <div class="card border-0 ">
+                <div class="card-body p-0">
+                    <span class="card-title">Direct Communication</span>
+                    <p class="card-content">
+                        Directly communicate with employers without any barriers. Exchange contact information and have
+                        the ability to communicate even outside of Y-jobs. </p>
+                    <button class="btn button " type="button" onclick="location.href='#';" value="Premium"><img
+                            class="img-fluid" src="./images/crown-icon.svg"> <span
+                            class="text-button">Buy Premium</span></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <div class="row white-space">
     </div>
-    <div class="row">
+    <div class="row d-none d-md-block">
         <div class="col-12 col-md-6  pad-cards ">
             <div class="card border-0 ">
                 <div class="card-body p-0">
@@ -212,6 +256,30 @@
         </div>
 
     </div>
+
+
+    <div class="row d-md-none ">
+
+        <div class="col-12 col-md-6">
+            <img class="img-fluid" src="./images/featue-3-copy-2@2x.jpg">
+        </div>
+        <div class="col-12 col-md-6  pad-cards ">
+            <div class="card border-0 ">
+                <div class="card-body p-0">
+                    <span class="card-title">Priority Display</span>
+                    <p class="card-content">
+                        Standout from the crowd with premium membership. Your profile is prioritized in search results.
+                        Y-jobs also recommends relevant premium profile directly to companies in our platforms. </p>
+                    <button class="btn button " type="button" onclick="location.href='#';" value="Premium">
+                        <span class="text-button"><i class="fas fa-crown">&nbsp;</i>Buy Premium</span></button>
+                </div>
+
+            </div>
+        </div>
+
+    
+    </div>
+
     <div class="row white-space">
     </div>
 
