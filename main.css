@@ -322,6 +322,7 @@ table tr:first-child th:first-child {
 /* queries */
 @media (max-width: 1024px) {
 
+
     .red-text {
         font-size: 100px;
         font-weight: bold;
@@ -513,7 +514,7 @@ table tr:first-child th:first-child {
         padding-top: 155px;
         font-weight: 800;
         letter-spacing: -0.5px!important;
-        font-size: 40px;
+        font-size: 33px;
     }
     .button{
             width: 303px;
