@@ -3,7 +3,7 @@ html { overflow-x: hidden; }​
 
 body{
 
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif !important;
 
     
 }
