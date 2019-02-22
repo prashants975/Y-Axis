@@ -80,9 +80,7 @@ a[ href="#whypremium"]:hover:before{
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
     background-color: #ed2011;
   }
-  #test{
 
-  }
 
 
 
@@ -252,9 +250,8 @@ table tr:first-child th:first-child {
   
 
 .pad-why{
-    padding-top: 180px;
- 
-    padding-bottom: 180px;
+    padding-top: 170px;
+    padding-bottom: 170px;
     font-size: 36px;
     font-weight: bold;
     color: #000000;
