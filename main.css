@@ -456,6 +456,7 @@ table tr:first-child th:first-child {
     }   
     .red-text{
         font-size: 75px;
+        letter-spacing: -1px;
     }
     .card-title {
         font-size: 19px;
