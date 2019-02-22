@@ -2,6 +2,8 @@
 body{
 
     font-family: Helvetica, sans-serif;
+    overflow-x: hidden;
+    
 }
 .top-bar{
     background-color: rgba(255, 255, 255, 0.9);
@@ -302,6 +304,7 @@ table tr:first-child th:first-child {
 .white-space{
     height: 160px;
 }
+
 
 
 
