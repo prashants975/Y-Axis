@@ -520,6 +520,7 @@ table tr:first-child th:first-child {
             width: 303px;
             height: 60px;
             border-radius: 34px;
+            margin-top: 25px;
     }
     .nav-button {
         width: 175px;
@@ -556,7 +557,7 @@ table tr:first-child th:first-child {
         top: -220px;
     }
     .pad-why {
-        padding-top: 155px;
+        padding-top: 0px;
         padding-bottom: 155px;
         font-size: 24px;
     }
@@ -596,9 +597,9 @@ table tr:first-child th:first-child {
     .pad-cards {
         padding-left: 5.7%;
         padding-right: 5.7%;
-        padding-top: 3.5rem;
-        padding-bottom: 3.5rem;
-        text-align: center; 
+        padding-top: 3.0rem;
+        padding-bottom: 3.0rem;
+        text-align: center;
     }
     .card-content {
         margin-top: 15px;

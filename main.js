@@ -2,7 +2,7 @@
 
 // scrolling effect on anchor
 $(document).ready(function(){
-    $("a").on('click', function(event) {
+    $(".text-why-small").on('click', function(event) {
   
       if (this.hash !== "") {
         event.preventDefault();
