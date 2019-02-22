@@ -18,3 +18,8 @@ $(document).ready(function(){
       } 
     });
   });
+
+  /* right in animation */
+
+
+  

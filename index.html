@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="main.css">
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
     <script src="main.js"></script>
+
 </head>
 <body>
 <div class="container-fluid bgimg pad">
@@ -31,7 +35,7 @@
 
     <div class=" d-none d-md-block row pad-b-300 ">
         <div class="col-sm-12 p-0">
-            <div class="job-text ">
+            <div class="job-text">
                 Join The World’s Only<br> 100% Overseas Jobsite
             </div>
         </div>
@@ -56,6 +60,15 @@
         <div class="col-12 p-0 text-center">
             <div class="job-text">
                 Join The World’s<br> Only 100% Overseas<br> Jobsite
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <div class="discount-text media mx-auto">
+                <img class="mr-3" src="./images/group-22.svg" alt="discount-40%">
+                <div class="media-body">
+                    <span class="mt-0 discount-size">₹3,000</span>
+                    <del style="color: #ed2011"><span class="mt-0 discount-size-2">₹5,000</span></del>
+                </div>
             </div>
         </div>
         <div class="col-12 pt-4 text-center">
@@ -129,7 +142,7 @@
             </div>
         </div>
         <div class="col-sm-12 spacing-grey shift-up text-center">
-                <button class="btn button " type="button" onclick="location.href='#';" value="Premium">
+                <button class="btn button my-auto" type="button" onclick="location.href='#';" value="Premium">
                     <span class="text-button"><i class="fas fa-crown">&nbsp;</i>Buy Premium</span>
                 </button>
         </div>
@@ -145,7 +158,7 @@
 <div class="container-fluid ">
     <div class="row">
         <div class="col-sm-12">
-            <div id="whypremium" class="text-center pad-why">
+            <div id="whypremium" class="text-center pad-why ">
                 Why become premium?
             </div>
         </div>
@@ -153,7 +166,7 @@
 </div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-12 col-md-6 d-none d-md-block pad-cards ">
+        <div class="col-12 col-md-6 d-none d-md-block pad-cards">
             <div class="card border-0 ">
                 <div class="card-body p-0">
                     <span class="card-title">Unlimited Applications</span>
@@ -167,8 +180,8 @@
 
             </div>
         </div>
-        <div class="col-12 col-md-6 d-none d-md-block">
-            <img class="img-fluid" id="test" src="./images/feature-1@2x.png">
+        <div class="col-12 col-md-6 d-none d-md-block ">
+            <img class="img-fluid" id="test" data-aos="fade-left" src="./images/feature-1@2x.png">
         </div>
 
     </div>
@@ -286,7 +299,10 @@
     </div>
 
 </div>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
 </body>
 
 </html>
