@@ -5,10 +5,10 @@
 
 #To install Dependencies:
 
-#npm install
+npm install
 
 
 
 #To start local server:
 
-#npm start
+npm start
